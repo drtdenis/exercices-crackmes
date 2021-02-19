@@ -13,7 +13,7 @@ const crackme10 = (password) => {
       .reduce((a, b) => {
         return a + b
       }, 0) %
-    2 !== //indice ne pas tenir compte de la deuxieme lettre de password
+    2 !==
     0
   ) {
     console.log('OK')
